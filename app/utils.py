@@ -4,9 +4,9 @@ import os
 
 # Paths to data files
 DATA_FILES = {
-    "Benin": "data/benin_clean.csv",
-    "Sierra Leone": "data/sierra_leone_clean.csv",
-    "Togo": "data/togo_clean.csv"
+    "Benin": "data/benin-malanville_clean.csv",
+    "Sierra Leone": "data/sierraleone-bumbuna_clean.csv",
+    "Togo": "data/togo-dapaong_qc_clean.csv"
 }
 
 def load_data(selected_countries):

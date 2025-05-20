@@ -1,5 +1,5 @@
 import streamlit as st
-from app.utils import load_data, plot_ghi_boxplot, get_top_regions
+from utils import load_data, plot_ghi_boxplot, get_top_regions
 
 st.set_page_config(page_title="Solar Data Dashboard", layout="wide")
 
